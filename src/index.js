@@ -16,7 +16,7 @@ else{
 }
 ReactDOM.render(
   <>
-    <img src={`https://source.unsplash.com/1000x1000/?nature,${value}`}></img>
+    <img src={`https://source.unsplash.com/1000x1000/?nature,${value}`} alt="img"></img>
     <h1>Hellow Sir, Good {value}</h1>
   </>,
   document.getElementById("root")
